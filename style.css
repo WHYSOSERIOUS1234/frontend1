@@ -1,0 +1,138 @@
+
+
+h1 {
+  text-shadow: 0 1px 0 rgba(0,0,0,.1) ,
+               0 2px 0 rgba(0,0,0,.3),
+               0 3px 0 rgba(0,0,0,.2),
+               0 4px 0 rgba(0,0,0,.25),
+               0 5px 0 rgba(0,0,0,.2),
+               0 6px 1px rgba(0,0,0,.15),
+               0 0 5px whitesmoke,
+               0 1px 3px whitesmoke,
+               0 3px 5px whitesmoke,
+               0 5px 10px whitesmoke,
+               0 10px 10px whitesmoke,
+               0 20px 20px whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(69, 147, 154);
+}
+
+h2 {
+    text-shadow: 0 1px 0 rgba(0,0,0,.1) ,
+    0 2px 0 rgba(0,0,0,.3),
+    0 3px 0 rgba(0,0,0,.2),
+    0 4px 0 rgba(0,0,0,.25),
+    0 5px 0 rgba(0,0,0,.2),
+    0 6px 1px rgba(0,0,0,.15),
+    0 0 5px whitesmoke,
+    0 1px 3px whitesmoke,
+    0 3px 5px whitesmoke,
+    0 5px 10px whitesmoke,
+    0 10px 10px whitesmoke,
+    0 20px 20px whitesmoke;
+text-align: center;
+color: rgb(69, 147, 154)
+}
+
+
+
+.container {
+  text-align:center
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    }
+ 
+img {
+height: 70%;
+width:90%;
+margin-top: 33px;
+margin-right: 10px;
+
+}
+
+.words {
+ width: 500px;
+ margin-top: 135px;
+ font-size: 25px;
+color: whitesmoke;
+text-align: center;
+
+}
+
+.heading {
+width: 60%
+}
+
+
+
+.backVideo {
+    position: fixed;
+   
+    width:auto;
+    height:auto;
+    z-index: -1;
+    margin-top: -35px;
+    margin-left: -10px;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+button {
+    background-color: rgb(69, 147, 154); 
+  border: none;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;  
+  border-radius: 1px;
+}
+
+
+button:hover {
+    opacity: 0.6 ;
+    background-color: black;
+}
+
+
+.topics {
+    text-shadow: 0 1px 0 rgba(0,0,0,.1) ,
+    0 2px 0 rgba(0,0,0,.3),
+    0 3px 0 rgba(0,0,0,.2),
+    0 4px 0 rgba(0,0,0,.25),
+    0 5px 0 rgba(0,0,0,.2),
+    0 6px 1px rgba(0,0,0,.15),
+    0 0 5px whitesmoke,
+    0 1px 3px whitesmoke,
+    0 3px 5px whitesmoke,
+    0 5px 10px whitesmoke,
+    0 10px 10px whitesmoke,
+    0 20px 20px whitesmoke;
+text-align: center;
+font-size: 30px;
+color: rgb(69, 147, 154)  ;
+}
+
+
+.home {
+    line-height: 12px;
+    margin-top: 10px;
+    margin-left: 30px;
+    position:fixed;
+    top:0;
+    left:0;
+    text-align: center;
+}
+/* finished css */
